@@ -741,46 +741,12 @@ Response: "Perfect! I've applied your 500 points ($50 off),
 
 ---
 
-## 👥 Team: KeepItSimple
-
-### Core Team
-**Project Lead & Solution Architect**
-- Responsible for overall vision and technical architecture
-- Expertise in AI/ML systems and enterprise solutions
-
-**AI/ML Engineer**
-- Develops Emotion Engine and Predictive Models
-- Specializes in NLP and deep learning
-
-**Full Stack Developer**
-- Builds AURA Orchestrator and Worker Agents
-- Expertise in microservices and cloud architecture
-
-**UI/UX Designer**
-- Designs omnichannel user experiences
-- Focuses on accessibility and conversational interfaces
-
-**DevOps Engineer**
-- Manages infrastructure and deployment pipelines
-- Ensures scalability and reliability
-
-### Advisors
-**Retail Industry Expert**
-- 15+ years in retail digital transformation
-- Provides domain expertise and market insights
-
-**AI Research Advisor**
-- PhD in Machine Learning
-- Guides advanced AI/ML implementations
-
----
-
 ## 📞 Contact & Collaboration
 
 ### Get in Touch
 We're excited to discuss partnerships, pilot programs, and investment opportunities.
 
-**Team Email**: keepitsimple.aura@gmail.com
+**Team Email**: baleshwarpalavadi@gmail.com
 **Project Website**: [Coming Soon]
 **GitHub**: [Repository URL]
 **Demo**: [Schedule a Demo]
@@ -821,14 +787,6 @@ AURA represents a $250M+ market opportunity. Contact us for:
 
 ---
 
-## 🏆 Awards & Recognition
-
-- **EY Techathon 6.0 Finalist** - Top 10 Teams
-- **Innovation Award** - Best AI Application in Retail
-- **Customer Experience Excellence** - Retail Tech Summit 2024
-
----
-
 ## 📄 License & Legal
 
 ### Intellectual Property
@@ -847,24 +805,7 @@ AURA is designed with privacy-first principles:
 ### Terms of Use
 Developed for EY Techathon 6.0. All rights reserved.
 
----
 
-## 🙏 Acknowledgments
-
-### Special Thanks
-- **EY Techathon 6.0** organizing committee for this incredible opportunity
-- **Mentors and Advisors** for their invaluable guidance
-- **Open-Source Community** for the amazing tools and frameworks
-- **Beta Testers** for their feedback and patience
-- **Retail Partners** for their domain expertise
-
-### Technology Partners
-- OpenAI / Anthropic for LLM capabilities
-- Pinecone for vector database infrastructure
-- AWS / Google Cloud for cloud infrastructure
-- Hugging Face for ML models and transformers
-
----
 
 ## 📈 Project Status
 
