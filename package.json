@@ -1,0 +1,20 @@
+{
+  "name": "aura-retail-agent",
+  "version": "1.0.0",
+  "description": "AURA - Adaptive Unified Retail Agent",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server:dev\" \"npm run client:dev\"",
+    "server:dev": "cd backend && npm run dev",
+    "client:dev": "cd frontend && npm start",
+    "build": "npm run build:server && npm run build:client",
+    "build:server": "cd backend && npm run build",
+    "build:client": "cd frontend && npm run build"
+  },
+  "keywords": ["ai", "chatbot", "retail", "angular", "nodejs"],
+  "author": "Team KeepItSimple",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
