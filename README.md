@@ -833,6 +833,16 @@ AURA is more than a chatbot—it's the future of retail customer experience. We'
 
 ---
 
+## 📸 Application Screenshots
+
+### Login Screen
+![AURA Login Screen](frontend/src/assets/screenshot-login.svg)
+
+### Chat Interface
+![AURA Chat Interface](frontend/src/assets/screenshot-chat.svg)
+
+---
+
 <div align="center">
 
 **Built with ❤️ by Team KeepItSimple**

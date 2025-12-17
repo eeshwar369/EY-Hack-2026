@@ -1,0 +1,127 @@
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="chatBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="customerMsg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <filter id="cardShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="15"/>
+      <feOffset dx="0" dy="8" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.25"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Browser Background -->
+  <rect width="1920" height="1080" fill="url(#chatBg)"/>
+  
+  <!-- Browser Chrome -->
+  <rect x="0" y="0" width="1920" height="80" fill="#f3f4f6"/>
+  <rect x="20" y="20" width="200" height="40" rx="8" fill="white"/>
+  <text x="50" y="47" font-family="Arial, sans-serif" font-size="14" fill="#333">AURA Chat</text>
+  <rect x="240" y="20" width="1440" height="40" rx="20" fill="white" stroke="#e5e7eb" stroke-width="2"/>
+  <text x="270" y="47" font-family="Arial, sans-serif" font-size="14" fill="#999">http://localhost:4200</text>
+  <circle cx="1820" cy="40" r="8" fill="#ef4444"/>
+  <circle cx="1850" cy="40" r="8" fill="#f59e0b"/>
+  <circle cx="1880" cy="40" r="8" fill="#10b981"/>
+  
+  <!-- Chat Container -->
+  <g filter="url(#cardShadow)">
+    <rect x="360" y="140" width="1200" height="860" rx="24" fill="white"/>
+  </g>
+  
+  <!-- Chat Header -->
+  <rect x="360" y="140" width="1200" height="100" rx="24" fill="white"/>
+  <line x1="360" y1="240" x2="1560" y2="240" stroke="#e5e7eb" stroke-width="1"/>
+  
+  <!-- AURA Avatar -->
+  <circle cx="420" cy="190" r="30" fill="url(#customerMsg)"/>
+  <text x="420" y="202" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white" text-anchor="middle">A</text>
+  
+  <!-- Header Text -->
+  <text x="470" y="185" font-family="Arial, sans-serif" font-size="22" font-weight="600" fill="#1f2937">AURA</text>
+  <text x="470" y="208" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Your Shopping Assistant</text>
+  
+  <!-- Logout Button -->
+  <rect x="1430" y="170" width="90" height="40" rx="8" fill="#f3f4f6"/>
+  <text x="1475" y="195" font-family="Arial, sans-serif" font-size="14" fill="#6b7280" text-anchor="middle">Logout</text>
+  
+  <!-- Messages Area -->
+  <!-- AURA Message 1 -->
+  <g transform="translate(400, 280)">
+    <rect width="700" height="110" rx="20" fill="#f3f4f6"/>
+    <text x="25" y="30" font-family="Arial, sans-serif" font-size="16" fill="#1f2937">Hi there! 👋 I'm AURA, your personal shopping assistant.</text>
+    <text x="25" y="55" font-family="Arial, sans-serif" font-size="16" fill="#1f2937">How can I help you today?</text>
+    <text x="25" y="90" font-family="Arial, sans-serif" font-size="13" fill="#9ca3af">10:30 AM</text>
+  </g>
+  
+  <!-- Customer Message 1 -->
+  <g transform="translate(660, 420)">
+    <rect width="680" height="90" rx="20" fill="url(#customerMsg)"/>
+    <text x="25" y="30" font-family="Arial, sans-serif" font-size="16" fill="white">Hi! I'm looking for a dress for a wedding. Something elegant</text>
+    <text x="25" y="55" font-family="Arial, sans-serif" font-size="16" fill="white">but not too formal.</text>
+    <text x="655" y="75" font-family="Arial, sans-serif" font-size="13" fill="rgba(255,255,255,0.8)" text-anchor="end">10:31 AM</text>
+  </g>
+  
+  <!-- AURA Message 2 -->
+  <g transform="translate(400, 540)">
+    <rect width="750" height="130" rx="20" fill="#f3f4f6"/>
+    <text x="25" y="30" font-family="Arial, sans-serif" font-size="16" fill="#1f2937">Perfect! I'd love to help you find the ideal dress for the wedding.</text>
+    <text x="25" y="55" font-family="Arial, sans-serif" font-size="16" fill="#1f2937">For a wedding, I'd recommend something in a midi or maxi length.</text>
+    <text x="25" y="80" font-family="Arial, sans-serif" font-size="16" fill="#1f2937">What colors do you prefer?</text>
+    <text x="25" y="110" font-family="Arial, sans-serif" font-size="13" fill="#9ca3af">10:31 AM</text>
+  </g>
+  
+  <!-- Customer Message 2 -->
+  <g transform="translate(860, 700)">
+    <rect width="480" height="70" rx="20" fill="url(#customerMsg)"/>
+    <text x="25" y="30" font-family="Arial, sans-serif" font-size="16" fill="white">I love blue and purple tones!</text>
+    <text x="455" y="55" font-family="Arial, sans-serif" font-size="13" fill="rgba(255,255,255,0.8)" text-anchor="end">10:32 AM</text>
+  </g>
+  
+  <!-- Typing Indicator -->
+  <g transform="translate(400, 800)">
+    <rect width="140" height="60" rx="20" fill="#f3f4f6"/>
+    <circle cx="45" cy="30" r="6" fill="#9ca3af">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="70" cy="30" r="6" fill="#9ca3af">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.4s" begin="0.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="95" cy="30" r="6" fill="#9ca3af">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.4s" begin="0.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Suggestions Bar -->
+  <rect x="360" y="880" width="1200" height="70" fill="white"/>
+  <line x1="360" y1="880" x2="1560" y2="880" stroke="#e5e7eb" stroke-width="1"/>
+  
+  <rect x="400" y="900" width="220" height="40" rx="20" fill="#f3f4f6" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="510" y="925" font-family="Arial, sans-serif" font-size="14" fill="#667eea" text-anchor="middle">Show me trending items</text>
+  
+  <rect x="640" y="900" width="160" height="40" rx="20" fill="#f3f4f6" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="720" y="925" font-family="Arial, sans-serif" font-size="14" fill="#667eea" text-anchor="middle">What's on sale?</text>
+  
+  <rect x="820" y="900" width="240" height="40" rx="20" fill="#f3f4f6" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="940" y="925" font-family="Arial, sans-serif" font-size="14" fill="#667eea" text-anchor="middle">I need help finding something</text>
+  
+  <!-- Input Area -->
+  <rect x="360" y="950" width="1200" height="50" rx="24" fill="white"/>
+  <rect x="400" y="960" width="1040" height="60" rx="30" fill="white" stroke="#e5e7eb" stroke-width="2"/>
+  <text x="440" y="995" font-family="Arial, sans-serif" font-size="16" fill="#9ca3af">Type your message...</text>
+  
+  <!-- Send Button -->
+  <circle cx="1490" cy="990" r="24" fill="url(#customerMsg)"/>
+  <path d="M 1483 990 L 1497 990 L 1490 983 Z" fill="white"/>
+  <path d="M 1490 983 L 1490 997" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
